@@ -1,13 +1,18 @@
 # Toggle-Terminator
 #### Make Terminator Terminal Act Like Guake/Yakuake Terminal in UBUNTU
 
+Install Dependencies
+```
+sudo apt-get install xdotool wmctrl
+```
+
 Clone the repository
 ```
 git clone https://github.com/sonus/toggle-terminator.git ~/toggle-terminator
 ```
 Change Directory to toggle-terminator
 ```
-cd toggle-terminator
+cd ~/toggle-terminator
 
 ```
 Make the python script an executable
@@ -40,7 +45,7 @@ Just press F12, terminator will appear in front of you. Pressing it once more it
 
 
 #### Note
-* You can also add other application along with this, ex: subl for Sublime Text ...
+* You can also add other application along with this, ex: subl for Sublime Text, firefox, skype ...
 * For mutiple instance application /path_to/toggle_visibility.sh application_name
 * For single instance application /path_to/toggle_visibility.sh application_name 1
 
